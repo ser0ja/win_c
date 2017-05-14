@@ -1,3 +1,5 @@
+#pragma once
+
 #include <assert.h>			// Conditionally compiled macro that compares its argument to zero
 #include <complex.h>		// (since C99)	Complex number arithmetic
 #include <ctype.h>			// Functions to determine the type contained in character data
