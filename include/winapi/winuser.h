@@ -1,7 +1,8 @@
 #pragma once
 
-WINUSERAPI int WINAPI MessageBoxA(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT uType);
-WINUSERAPI int WINAPI MessageBoxW(HWND hWnd, PCWSTR lpText, LPCWSTR lpCaption, UINT uType);
+int WINAPI MessageBoxW(HWND hWnd, LPCWSTR lpText, LPCWSTR lpCaption, UINT uType);
+int WINAPI MessageBoxA(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT uType);
+
 #ifdef UNICODE
 #define MessageBox  MessageBoxW
 #else
