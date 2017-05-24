@@ -1,0 +1,3 @@
+D:\Dropbox\Development\C\win_c\tcc\tcc.exe -g -Wall -ID:\Dropbox\Development\C\win_c\include -LD:\Dropbox\Development\C\win_c\lib -c -o $(NAME_PART) $(FULL_CURRENT_PATH)
+D:\Dropbox\Development\C\win_c\tcc\tcc.exe -g -nostdlib -ID:\Dropbox\Development\C\win_c\include -LD:\Dropbox\Development\C\win_c\lib -run $(FULL_CURRENT_PATH)
+D:\Dropbox\Development\C\win_c\tcc\tcc.exe -ID:\Dropbox\Development\C\win_c\include -LD:\Dropbox\Development\C\win_c\lib -g -run $(FULL_CURRENT_PATH)
